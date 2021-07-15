@@ -2,7 +2,7 @@
 
 This repository is for COAST introduced in the following paper
 
-Di You, [Jian Zhang](http://jianzhang.tech/), Jingfen Xie, Bin Chen, and Siwei Ma. COAST: Controllable arbitrary-sampling network for compressive sensing. IEEE Transactions on Image Processing, 2021.
+Di You, [Jian Zhang](http://jianzhang.tech/), Jingfen Xie, Bin Chen, and Siwei Ma. COAST: Controllable arbitrary-sampling network for compressive sensing. IEEE Transactions on Image Processing, 2021. [[pdf]](https://ieeexplore.ieee.org/abstract/document/9467810)
 
 The code is built on **PyTorch** and tested on Ubuntu 16.04/18.04 and Windows 10 environment (Python3.x, PyTorch>=0.4) with 1080Ti GPU.
 
