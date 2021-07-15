@@ -333,6 +333,4 @@ def test_model(epoch_num, cs_ratio, sigma, model_name):
     write_data(output_file_name, output_data)  
 
 
-
-
 test_model(test_epoch, args.cs_ratio, 0.0, model_name)
