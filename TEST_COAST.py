@@ -50,8 +50,10 @@ test_name = args.test_name
 test_cycle = args.test_cycle
 
 test_dir = os.path.join(args.data_dir, test_name)
-filepaths = glob.glob(test_dir + '/*.tif')
-# filepaths = glob.glob(test_dir + '/*.png')
+if test_name=="Set11":
+    filepaths = glob.glob(test_dir + '/*.tif')
+else:
+    filepaths = glob.glob(test_dir + '/*.png')
 
 result_dir = os.path.join(args.result_dir, test_name)
 if not os.path.exists(result_dir):
