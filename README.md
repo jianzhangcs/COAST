@@ -50,6 +50,31 @@ Figure 1. Illustration of the proposed COAST framework.
 3. Check the results in './result'.
 
 
+## Train-CS
+### Prepare training data  
+
+1. Trainding data (**Training_Data.mat** including 88912 image blocks) is in './data'. If not, please download it from [GoogleDrive](https://drive.google.com/file/d/14CKidNsC795vPfxFDXa1FH9QuNJKE3cp/view?usp=sharing) or [BaiduPan [code: xy52]](https://pan.baidu.com/s/1X3pERjCD37YdqQuzKNXejA).
+
+2. Place **Training_Data.mat** in './data' directory
+
+### Begin to train
+
+
+1. run the following scripts to train ISTA-Net models.
+
+    **You can use scripts in file 'TRAIN_COAST_scripts.sh' to train models for our paper.**
+
+    ```bash
+    # train scripts
+    python TRAIN_COAST.py  --cs_ratio 10 --layer_num 20
+    python TRAIN_COAST.py  --cs_ratio 20 --layer_num 20
+    python TRAIN_COAST.py  --cs_ratio 30 --layer_num 20
+    python TRAIN_COAST.py  --cs_ratio 40 --layer_num 20
+    python TRAIN_COAST.py  --cs_ratio 50 --layer_num 20
+    ```
+    
+
+
 ## Results
 ### Quantitative Results
 
